@@ -8,4 +8,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneName);
     }
 
+    public void exitApplication()
+    {
+        Application.Quit();
+        Debug.Log("Application has been exited");
+    }
 }
